@@ -1,0 +1,109 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-section {
+    margin-left: 25px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.hamlogo,
+.ytlogo {
+    height: 25px;
+
+}
+
+.ytlogo {
+    padding-left: 25px;
+}
+
+.middle-section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex: 1;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+
+}
+
+.searchbar {
+    height: 35px;
+    flex-shrink: 1;
+    padding-left: 12px;
+    font-size: 15px;
+    min-width: 350px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    border-color: rgb(192, 192, 192);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .15)
+}
+
+.searchbarlogo {
+    height: 35px;
+    width: 55px;
+    border: 1px solid rgb(118, 118, 118);
+    background-color: white;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.searchbarlogo:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.miclogo {
+    height: 35px;
+    width: 41px;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.searchbarlogo,
+.createlogo,
+.ytapplogo,
+.notiflogo:hover,
+.idlogo,
+.miclogo {
+    cursor: pointer;
+}
+
+
+.right-section {
+
+    width: 215px;
+    margin-left: 40px;
+    display: flex;
+    margin-right: 0;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.idlogo {
+    height: 45px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.createlogo,
+.ytapplogo,
+.notiflogo {
+    height: 30px;
+
+}

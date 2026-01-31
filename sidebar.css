@@ -1,0 +1,53 @@
+.sidebar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    background-color: white;
+    justify-content: center;
+    gap: 30px;
+    min-height: 500px;
+    padding-left: 0px;
+    font-family: Montserrat, Roboto, Arial;
+    z-index: 200;
+}
+
+.sideline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+    width: 100%;
+    font-size: 9px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+.sideline div {
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+
+.sideline:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+
+.homelogo,
+.explorelogo,
+.ytmusiclogo,
+.orignallogo,
+.sublogo,
+.librarylogo {
+    height: 30px;
+    width: 35px;
+
+}
