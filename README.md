@@ -74,7 +74,7 @@ These challenges helped strengthen my understanding of how CSS behaves in real-w
 
 ## 📷 Preview
 
-<img src="preview/homepage.png" width="100%">
+<img src="preview-of-project.png" width="100%">
 
 ---
 
